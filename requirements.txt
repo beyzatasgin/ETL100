@@ -1,0 +1,5 @@
+pandas>=1.5.0
+ipython-sql>=0.4.0
+jupyter>=1.0.0
+notebook>=6.0.0
+
