@@ -135,9 +135,6 @@ Bu proje eğitim amaçlıdır. İyileştirme önerileri ve hata bildirimleri iç
 
 Bu proje eğitim amaçlıdır ve açık kaynak kodludur.
 
-## 👤 Yazar
-
-Proje, Sakarya Üniversitesi staj programı kapsamında geliştirilmiştir.
 
 ## 📚 Kaynaklar
 
