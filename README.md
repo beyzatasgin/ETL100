@@ -62,7 +62,7 @@ jupyter notebook ETL100.ipynb
 
 4. Notebook'u hücre hücre çalıştırarak analizleri görüntüleyin.
 
-## 📊 Analiz Kategorileri
+##  Analiz Kategorileri
 
 ### Temel Sorgular (1-10)
 - Tüm verilerin görüntülenmesi
@@ -97,7 +97,7 @@ ETL100/
 └── requirements.txt      # Python paket gereksinimleri (opsiyonel)
 ```
 
-## 🔍 Örnek Sorgular
+##  Örnek Sorgular
 
 ### Film ve Oyuncu İlişkileri
 ```python
