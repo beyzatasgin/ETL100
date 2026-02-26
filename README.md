@@ -2,11 +2,11 @@
 
 Bu proje, Sakila DVD kiralama veritabanı üzerinde kapsamlı veri analizi ve ETL (Extract, Transform, Load) işlemleri gerçekleştiren bir Jupyter Notebook projesidir. Proje, 100 farklı analitik soru üzerinden veritabanındaki ilişkileri, trendleri ve istatistikleri incelemektedir.
 
-## 📋 Proje Hakkında
+##  Proje Hakkında
 
 Sakila, MySQL'in örnek veritabanı olarak sunulan bir DVD kiralama mağazası simülasyonudur. Bu proje, bu veritabanı üzerinde Python ve Pandas kullanarak çeşitli analitik sorgular gerçekleştirmektedir.
 
-## ✨ Özellikler
+##  Özellikler
 
 Proje aşağıdaki konularda 100 farklı analiz sorusu içermektedir:
 
@@ -19,14 +19,14 @@ Proje aşağıdaki konularda 100 farklı analiz sorusu içermektedir:
 - **Envanter Yönetimi**: Stok durumu, rafta bekleyen filmler
 - **Coğrafi Analizler**: Şehir bazlı kiralama ve gelir dağılımları
 
-## 🛠️ Teknolojiler
+##  Teknolojiler
 
 - **Python 3.x**
 - **Pandas**: Veri manipülasyonu ve analizi
 - **SQLite**: Veritabanı bağlantısı
 - **Jupyter Notebook**: İnteraktif geliştirme ortamı
 
-## 📦 Kurulum
+##  Kurulum
 
 ### Gereksinimler
 
@@ -42,7 +42,7 @@ Not: `sqlite3` genellikle Python ile birlikte gelir, ancak gerekirse yüklenebil
 
 Proje, `sqlite-sakila.db` adlı SQLite veritabanı dosyasını kullanmaktadır. Bu dosyanın proje dizininde bulunduğundan emin olun.
 
-## 🚀 Kullanım
+##  Kullanım
 
 1. Projeyi klonlayın veya indirin:
 ```bash
@@ -86,7 +86,7 @@ jupyter notebook ETL100.ipynb
 - Kategori trend analizleri
 - Kapsamlı gelir ve kiralama metrikleri
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
 ETL100/
@@ -117,7 +117,7 @@ film_revenue = payment.merge(rental, on="rental_id") \
                       .sort_values(ascending=False)
 ```
 
-## 📈 Sonuçlar
+##  Sonuçlar
 
 Proje, DVD kiralama işletmesi için aşağıdaki alanlarda değerli içgörüler sağlamaktadır:
 
@@ -127,22 +127,12 @@ Proje, DVD kiralama işletmesi için aşağıdaki alanlarda değerli içgörüle
 - Stok yönetimi optimizasyonu
 - Coğrafi pazar analizleri
 
-## 🤝 Katkıda Bulunma
 
-Bu proje eğitim amaçlıdır. İyileştirme önerileri ve hata bildirimleri için issue açabilirsiniz.
-
-## 📝 Lisans
-
-Bu proje eğitim amaçlıdır ve açık kaynak kodludur.
-
-
-## 📚 Kaynaklar
+##  Kaynaklar
 
 - [Sakila Veritabanı Dokümantasyonu](https://dev.mysql.com/doc/sakila/en/)
 - [Pandas Dokümantasyonu](https://pandas.pydata.org/docs/)
 - [SQLite Dokümantasyonu](https://www.sqlite.org/docs.html)
 
 ---
-
-**Not**: Bu proje, veri analizi ve ETL süreçlerini öğrenmek için tasarlanmıştır. Ticari kullanım için uygun değildir.
 
